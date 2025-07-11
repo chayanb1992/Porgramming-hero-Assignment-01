@@ -126,7 +126,7 @@ header .wrapper button:hover {
   /* background-color: #22b8cf; */
   /* opacity: 0.7; */
   margin-bottom: 90px;
-  padding: 40px;
+  padding: 40px 0;
 }
 
 .happy_client_wrapper h3 {
@@ -142,4 +142,47 @@ header .wrapper button:hover {
 .happy_client_wrapper .client_count .rate {
   font-size: 3em;
   color: #0c8599;
+}
+
+/* -------------client feedback section------------------ */
+.user_feedback_wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.user_feedback_wrapper h2 {
+  text-align: center;
+}
+.users_messages {
+  margin-top: 60px;
+  display: flex;
+  gap: 2%;
+}
+
+.users_messages .user {
+  width: 32%;
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+.users_messages .user .stars {
+  color: #ffb805;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.users_messages .user h4 {
+  margin-bottom: 10px;
+}
+.users_messages .user p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.users_messages .user .profile {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.users_messages .user .profile img {
+  width: 50px;
+  border-radius: 50px;
 }
