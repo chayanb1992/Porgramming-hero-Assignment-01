@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter";
+}
+/* header section */
+header .container {
+  background-color: #e9ecef;
+}
+header .wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .wrapper img {
+  width: 90px;
+}
+header .wrapper button {
+  padding: 8px 20px;
+  height: 33px;
+  background-color: #0c8599;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+}
+
+header .wrapper button:hover {
+  background-color: #22b8cf;
+}
