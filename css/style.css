@@ -186,3 +186,42 @@ header .wrapper button:hover {
   width: 50px;
   border-radius: 50px;
 }
+
+/* ------------leave message section-------------- */
+.leave_message_wrapper {
+  width: 1140px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leave_message_wrapper .touch {
+  width: 500px;
+}
+.leave_message_wrapper .touch h2 {
+  font-size: 50px;
+}
+.leave_message_wrapper .input label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.leave_message_wrapper .input input {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+.leave_message_wrapper .input input,
+.leave_message_wrapper .input textarea {
+  display: block;
+  width: 400px;
+}
+
+.leave_message_wrapper .input input {
+  border: 1px solid #0c8599;
+}
+.leave_message_wrapper .input textarea {
+  padding: 10px 20px;
+  border: 1px solid #0c8599;
+  resize: none;
+}
