@@ -117,3 +117,29 @@ header .wrapper button:hover {
 .demo_wrapper .demo_image img {
   width: 400px;
 }
+
+/* -------------happy client section-------------- */
+.happy_client_wrapper {
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #a8d4db;
+  /* background-color: #22b8cf; */
+  /* opacity: 0.7; */
+  margin-bottom: 90px;
+  padding: 40px;
+}
+
+.happy_client_wrapper h3 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 38px;
+}
+
+.happy_client_wrapper .client_count {
+  display: flex;
+  justify-content: space-around;
+}
+.happy_client_wrapper .client_count .rate {
+  font-size: 3em;
+  color: #0c8599;
+}
