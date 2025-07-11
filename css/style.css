@@ -4,12 +4,14 @@
 }
 body {
   font-family: "Inter";
+  color: #404242;
 }
-/* header section */
+/* ----------------header section------------------ */
 header .container {
   background-color: #e9ecef;
   /* background-image: url("../images/hero_image.jpg"); */
 }
+
 header .wrapper {
   width: 1140px;
   margin: 0 auto;
@@ -35,7 +37,7 @@ header .wrapper button:hover {
   background-color: #22b8cf;
 }
 
-/* hero section */
+/* ----------------hero section------------------ */
 .container .hero {
   height: 800px;
   background-image: url("../images/hero_image.jpg");
@@ -74,4 +76,44 @@ header .wrapper button:hover {
 }
 .container .hero button:hover {
   background-color: #22b8cf;
+}
+
+/* ---------------demo section------------------- */
+.demo_wrapper {
+  display: flex;
+  gap: 40px;
+  width: 1140px;
+  margin: 90px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.demo_wrapper .demo_text {
+  /* display: inline-block; */
+  width: 500px;
+}
+.demo_wrapper .demo_text h2 {
+  /* color: #404242; */
+  margin-bottom: 20px;
+}
+.demo_wrapper .demo_text p {
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.demo_wrapper .demo_text button {
+  padding: 8px 40px;
+  background-color: #0c8599;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.demo_wrapper .demo_text button:hover {
+  background-color: #22b8cf;
+}
+
+.demo_wrapper .demo_image img {
+  width: 400px;
 }
