@@ -225,3 +225,43 @@ header .wrapper button:hover {
   border: 1px solid #0c8599;
   resize: none;
 }
+
+/* ---------------footer section-------------- */
+
+.footer {
+  background-color: #e9ecef;
+}
+.footer .footer_warpper {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 80px 0;
+  /* text-align: center; */
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.footer .footer_warpper img {
+  margin-bottom: 20px;
+  width: 100px;
+}
+.footer .footer_warpper p {
+  width: 650px;
+  line-height: 1.4;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer .footer_warpper ul {
+  list-style: none;
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+}
+.footer .footer_warpper ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+.footer .footer_warpper ul li a:hover {
+  color: #0c8599;
+}
